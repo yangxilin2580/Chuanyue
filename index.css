@@ -1,0 +1,99 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;
+	color:#757575;
+}
+body{font-size:14px;}
+.banxin{
+	width:1100px;
+	margin:0 auto;
+}
+.top{
+	background-color:#323232;
+	height:48px;
+}
+
+.top-left li{
+	float:left;
+	margin-right:15px;
+	line-height:48px;
+}
+.top-left a:hover{
+	color:#fff;
+	background-color:#dd4012;
+}
+.top-left a{
+	padding:15px 15px;
+}
+.top-right{
+	line-height:48px;
+	float:right;	
+}
+.top-right li{
+	float:left;
+}
+.top-right .dianhua a{
+	background-image:url(images/dianhua.png);
+	background-repeat:no-repeat;
+	display:block;
+	padding-left:20px;
+	background-position:0px 50%;
+	float:left;	
+}
+.top-right .qq a{
+	background-image:url(images/qq.png);
+	background-repeat:no-repeat;
+	width:38px;
+	height:38px;
+	margin-top:15px;
+	float:left;
+	margin-left:20px;
+}
+.top-right .weibo a{
+	background-image:url(images/weibo.png);
+	background-repeat:no-repeat;
+	width:38px;
+	height:38px;
+	margin-top:15px;
+	float:left;
+	
+}
+.top-right .weixin a{
+	background-image:url(images/weixin.png);
+	background-repeat:no-repeat;
+	width:20px;
+	height:18px;
+	margin-top:15px;
+	float:left;	
+}
+.top-right .youxiang a{
+	background-image:url(images/youxiang.png);
+	background-repeat:no-repeat;
+	width:20px;
+	height:18px;
+	margin-top:15px;
+	margin-bottom:15px;
+	float:left;
+	margin-left:15px;
+}
+.top-right .dianhua a:hover{
+	background-image:url(images/dianhua2.png);
+}
+.top-right .qq a:hover{
+	background-image:url(images/qq2.png);
+}
+.top-right .weibo a:hover{
+	background-image:url(images/weibo2.png);
+}
+.top-right .weixin a:hover{
+	background-image:url(images/weixin2.png);
+}
+.top-right .youxiang a:hover{
+	background-image:url(images/youxiang2.png);
+}
+.banner{
+	background-image:url(images/beijing.png);
+	height:220px;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
